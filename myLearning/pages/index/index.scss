@@ -1,0 +1,29 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #efefef !important;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+// 轮播图样式
+  swiper {
+    height: 360rpx;
+    background-color: skyblue;
+    swiper-item{
+      image{
+        height: 100%;
+        width: 100%;
+      }
+      &:first-child{
+        background-color: lightsalmon;
+      }
+      &:last-child{
+        background-color: lightseagreen;
+      }
+    }
+  }

@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<!-- view 容器组件，相当于div -->
+
+<!-- 轮播图 -->
+<view calss="swiper">
+<!-- swiper 滑块视图容器，其中只能放置 swiper-item 组件 -->
+<swiper
+  autoplay="true"
+  interval="3000"
+  indicator-dots="true"
+  indicator-color="#fff"
+  indicator-active-color="#f3514f"
+  circular="true">
+  <!-- swiper-item 只可放置于 swiper 组件中，代表 swiper 的每一项 -->
+  <swiper-item>
+    <image src="" mode=""/>
+  </swiper-item>
+  <swiper-item>
+    <image src="" mode=""/>
+  </swiper-item>
+  <swiper-item>
+    <image src="" mode=""/>
+  </swiper-item>
+</swiper>
+</view>
+
+<!-- 公司信息 -->
+<view class="info">
+<view>
+
+</view>
+</view>
+
+<!-- 商品导航 -->
+<view class="container">
+
+</view>
+
+<!-- 推荐商品 -->
+<view class="goodhot">
+
+</view>
