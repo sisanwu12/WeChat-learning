@@ -1,0 +1,11 @@
+<!--pages/login.wxml-->
+<van-empty
+  image="/assets/个人中心.png"
+  description="请点击下方按钮，授权登录"
+>
+  <van-button
+  round type="danger" bind:tap="login"
+  >
+    点击授权登录
+  </van-button>
+</van-empty>

@@ -1,2 +1,19 @@
 <!--pages/cate/cate.wxml-->
-<text>pages/cate/cate.wxml</text>
+<!-- 在双大括号的内部，只能写表达式，不能写语句，也不能调用js方法 -->
+<view>{{ school }}</view>
+<view>{{ obj.name }}</view>
+<view>{{ obj.age > 19 ? obj.age+1 : 19+1 }}</view>
+<view class="line"></view>
+<!-- 修改数据 -->
+<view>{{ num }}</view>
+<button bind:tap="updataNUM"> 点击加1 </button>
+<view class="line"></view>
+<view>{{ user.name }},{{ user.age }}</view>
+<button bind:tap="updateUSER"> 点击更新对象属性 </button>
+<button bind:tap="deleteUSER"> 点击删除对象属性 </button>
+<view class="line"></view>
+<!-- model 双向绑定数据 -->
+<!-- 属性值只能是单一字段，不能拼接字符。 -->
+<!-- 属性值不能是数据路径，不能是数组和对象 -->
+<input type="text" model:value="{{ value }}"/>
+<checkbox model:checked="{{ isChecked }}"/> 我已同意该协议

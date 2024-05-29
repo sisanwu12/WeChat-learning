@@ -1,0 +1,20 @@
+/* pages/profile/profile.wxss */
+
+  view {
+    width: 750rpx;
+    height: 100rpx;
+    background-color: oldlace;
+    navigator {
+      display: flex;
+      flex-direction: row;
+      line-height: 100rpx;
+    image{
+      width: 100rpx;
+      height: 100rpx;
+    }
+    text{
+      float: left;
+      margin-left: 20rpx;
+    }
+  }
+}

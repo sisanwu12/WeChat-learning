@@ -3,21 +3,21 @@
   "pages": [
     "pages/index/index",
     "pages/cate/cate",
-    "pages/cart/cart",
     "pages/profile/profile",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/login/login"
   ],
   "window": {
     "navigationBarTitleText": "小程序开发学习",
     "navigationBarBackgroundColor": "#f3514f",
     "enablePullDownRefresh": true,
     "backgroundColor": "#efefef",
-    "backgroundTextStyle":"dark"
+    "backgroundTextStyle": "dark"
   },
   "tabBar": {
     "selectedColor": "#f3514f",
     "color": "#666",
-    "borderStyle":"white",
+    "borderStyle": "white",
     "list": [
       {
         "text": "首页",
@@ -30,12 +30,6 @@
         "pagePath": "pages/cate/cate",
         "iconPath": "/assets/分类(未选中).png",
         "selectedIconPath": "/assets/分类(选中).png"
-      },
-      {
-        "text": "购物车",
-        "pagePath": "pages/cart/cart",
-        "iconPath": "/assets/购物车(未选中).png",
-        "selectedIconPath": "/assets/购物车(选中).png"
       },
       {
         "text": "我的",
